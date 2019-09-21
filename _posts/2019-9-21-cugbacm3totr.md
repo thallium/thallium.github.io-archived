@@ -6,6 +6,7 @@ tags:
 layout: post
 ---
 # CUGBACM18级训练#3 题解
+<!--more-->
 ## 1.HDU1686
 
 **题意：** 给出两个串s1,s2，问s1在s2中出现的次数。
