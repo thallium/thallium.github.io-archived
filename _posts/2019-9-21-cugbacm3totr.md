@@ -7,15 +7,6 @@ layout: post
 ---
 # CUGBACM18级训练#3 题解
 <!-- more -->
-{% highlight ruby %}
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
-{% endhighlight %}
 
 ## 1.HDU1686
 
