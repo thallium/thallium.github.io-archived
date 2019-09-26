@@ -2,7 +2,7 @@
 published: true
 title: Kattis - Farey Sums题解
 category: 题解
-tags: 数学, 欧拉函数
+tags: 数学 , 欧拉函数
 layout: post
 output: pdf_document
 ---
