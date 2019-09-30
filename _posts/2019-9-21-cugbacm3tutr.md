@@ -2,7 +2,7 @@
 published: true
 title: CUGBACM18级训练#3 题解
 category: 题解
-tags:
+tags: CUGBACM
 layout: post
 ---
 # CUGBACM18级训练#3 题解
