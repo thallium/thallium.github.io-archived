@@ -9,7 +9,7 @@ subtitle:
 description:
 author: John Doe
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
@@ -438,7 +438,7 @@ gitalk:
   enable: false
   clientID: # 54730ddf7b9420460c03
   clientSecret: # c05684701b25ff1c19ea0c01ce4d80c125e0707d
-  repo:  thallium.github.io
+  repo: # colingpt.github.io
   owner: # colingpt
   admin: # colingpt
 
@@ -736,4 +736,3 @@ images: assets/images
 
 # Theme version
 version: 5.1.1
-repository: thallium/thallium.github.io
