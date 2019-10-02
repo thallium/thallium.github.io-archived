@@ -218,6 +218,7 @@ social:
   GitHub: https://github.com/thallium
   Weibo: https://www.weibo.com/545962234
   School: http://www.yorku.ca/index.html
+  Bilibili: https://space.bilibili.com/3019370
 
 # Social Links Icons
 # Icon Mapping:
@@ -231,7 +232,7 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
-  School: school
+  School: university
 
 
 # Sidebar Avatar
