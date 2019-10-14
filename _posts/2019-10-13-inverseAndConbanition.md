@@ -17,7 +17,7 @@ output: pdf_document
 # What is Modular Multiplicative Inverse?
 
 If $a\cdot x \equiv 1\pmod p$, $x$ is called a inverse of a(modulo p), referred to as $a^{-1}$. We usually use the minimun positive inverse.
-
+<!-- more -->
 # The use of Inverse
 
 The inverse is used when calculating the modulo of division.
