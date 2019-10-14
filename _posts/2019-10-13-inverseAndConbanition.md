@@ -69,6 +69,21 @@ Calculate $\dbinom{n}{m} \bmod p$
 
 We can use the inverse to calculate $\dfrac{n!}{m!\cdot (n-m)!}\equiv(n!\mod p\cdot (m!\mod p)^{-1}\cdot ((n-m)!\mod p)^{-1})\pmod p$
 
+### Calculate the inverse of factorial
+$$\because n!\cdot(n!)^{-1}\equiv 1 \pmod p\\
+\therefore (n-1)!\cdot (n\cdot (n!)^{-1})\equiv 1 \pmod p$$
+
+Therefore$(n\cdot (n!)^{-1})$is an inverse of $(n-1)!$.
+```cpp
+fact[0] = 1;
+for (int i = 1; i < maxn; i++) {
+    fact[i] = fact[i - 1] * i %mod;
+}
+inv[maxn - 1] = power(fact[maxn - 1], mod - 2);
+for (int i = maxn - 2; i >= 0; i--) {
+    inv[i] = inv[i + 1] * (i + 1) %mod;
+}
+```
 ## When n and m are really big but p is not too big
 
 $$\binom{n}{m}\bmod p=\binom{\lfloor\frac{n}{p}\rfloor }{\lfloor\frac{m}{p}\rfloor }\binom{n\bmod p }{m\bmod p}\bmod p$$
