@@ -8,7 +8,9 @@ tags:
 layout: post
 output: pdf_document
 ---
+Just as a reminder with simple explanatin.
 
+<!-- more -->
 # 路径记录/Recording the path
 
 我们开一个`vector<int> pre[N]`用来记录某个点的前一个点，在更新距离的时候，如果当前距离更短就舍弃掉之前的记录，将当前点作为被更新点的前一个点；如果当前距离和最短距离相等就在数组里加上这个点。
