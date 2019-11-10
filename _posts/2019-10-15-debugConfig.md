@@ -1,7 +1,7 @@
 ---
 published: true
 title: VSCode C++ debug configuration
-category: 杂项
+category: 杂项/Miscellany
 tags: VSCode
 layout: post
 output: pdf_document

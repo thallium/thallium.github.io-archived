@@ -3,14 +3,10 @@ published: true
 title: "Algorithm note: Modular Multiplicative Inverse and Modulo of Combinations"
 category: 算法笔记
 tags: 
-- 数学
-- 数论
-- 逆元
-- 排列组合 
-- math
-- number theory
-- inverse of a number
-- combination
+- 数学/Math
+- 数论/Number Theory
+- 逆元/Modular Multiplicative Inverse
+- 排列组合/Combination
 layout: post
 output: pdf_document
 ---

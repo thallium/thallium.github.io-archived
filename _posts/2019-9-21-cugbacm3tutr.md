@@ -1,7 +1,7 @@
 ---
 published: true
 title: CUGBACM18级训练#3 题解
-category: 题解
+category: 训练题解/Training Tutorial
 tags: CUGBACM
 layout: post
 ---

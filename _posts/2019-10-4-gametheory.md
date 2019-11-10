@@ -1,8 +1,9 @@
 ---
 published: true
 title: 博弈论入门学习笔记
-category: 笔记
-tags: 博弈论
+category: 算法笔记/Alg Notes
+tags: 
+- 博弈论/Game Theory
 layout: post
 ---
 几个月前的笔记，才疏学浅，仅供参考~

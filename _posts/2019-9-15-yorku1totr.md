@@ -1,7 +1,7 @@
 ---
 published: true
 title: York Univeristy programming contest 第一场题解
-category: 比赛题解
+category: 比赛题解/Contest Tutorial
 tags:
 layout: post
 ---
