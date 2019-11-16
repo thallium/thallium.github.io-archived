@@ -1,7 +1,7 @@
 ---
 published: true
 title: "Algorithm note: Modular Multiplicative Inverse and Modulo of Combinations"
-category: 算法笔记
+category: 算法笔记/Alg Notes
 tags: 
 - 数学/Math
 - 数论/Number Theory
