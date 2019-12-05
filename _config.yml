@@ -234,6 +234,7 @@ social_icons:
   Twitter: twitter
   Weibo: weibo
   School: university
+  Facebook: facebook
 
 
 # Sidebar Avatar
@@ -286,11 +287,12 @@ sidebar:
 
 
 # Blog rolls
-links_title: Links
+links_title: My friends
 #links_layout: block
 #links_layout: inline
 links:
-  dkls: https://wongdark2017.github.io/
+  ????: https://wongdark2017.github.io/
+  ???https://bytx-zyh.com/
 
 
 # ---------------------------------------------------------------
