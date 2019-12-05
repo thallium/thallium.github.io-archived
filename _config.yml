@@ -235,6 +235,7 @@ social_icons:
   Weibo: weibo
   School: university
   Facebook: facebook
+  Bilibili: bilibili
 
 
 # Sidebar Avatar
@@ -291,8 +292,8 @@ links_title: My Friends
 #links_layout: block
 #links_layout: inline
 links:
-  ????: https://wongdark2017.github.io/
-  \u5b87\u795e: https://bytx-zyh.com/
+  Dark: https://wongdark2017.github.io/
+  YuShen: https://bytx-zyh.com/
 
 
 # ---------------------------------------------------------------
