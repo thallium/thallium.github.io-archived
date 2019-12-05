@@ -287,12 +287,12 @@ sidebar:
 
 
 # Blog rolls
-links_title: Friends
+links_title: My Friends
 #links_layout: block
 #links_layout: inline
-Friends:
+links:
   ????: https://wongdark2017.github.io/
-  ???https://bytx-zyh.com/
+  ??: https://bytx-zyh.com/
 
 
 # ---------------------------------------------------------------
