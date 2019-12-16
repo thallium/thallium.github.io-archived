@@ -1,7 +1,7 @@
 ---
 published: true
-title: Reconstruction of my 14.42 PB
-category: 魔方/Rubik's Cube
+title: Reconstruction of my 12.42 PB
+category: ??/Rubik's Cube
 tags: 
 layout: post
 ---
