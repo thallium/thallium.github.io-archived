@@ -5,14 +5,14 @@ category: 算法笔记/Alg Notes
 tags: 
 - 数学/Math
 - 数论/Number Theory
-- 逆元/Modular Multiplicative Inverse
+- 乘法逆元/Modular Inverse
 - 排列组合/Combination
 layout: post
 output: pdf_document
 ---
 # What is Modular Multiplicative Inverse?
 
-If $a\cdot x \equiv 1\pmod p$, $x$ is called a inverse of a(modulo p), referred to as $a^{-1}$. We usually use the minimun positive inverse.
+If $a\cdot x \equiv 1\pmod p$, $x$ is called a inverse of a(modulo p), referred to as $a^{-1}$. We usually use the minimum positive inverse.
 <!-- more -->
 # The use of Inverse
 
@@ -37,7 +37,7 @@ void exgcd(int a, int b, int& x, int& y) {
 
 ## The Fermat's Little Theorem
 
-According to Fermat's Little Theorem $a^{p-1} \equiv 1\pmod p$, thus $a\cdot x \equiv a^{p-1}\pmod p$, $x \equiv a^{p-2}\pmod p$. We can calulate it using Exponentiation by squaring.
+According to Fermat's Little Theorem $a^{p-1} \equiv 1\pmod p$, thus $a\cdot x \equiv a^{p-1}\pmod p$, $x \equiv a^{p-2}\pmod p$. We can calculate it using Exponentiation by squaring.
 
 ```cpp
 inline int qpow(long long a, int b) {
