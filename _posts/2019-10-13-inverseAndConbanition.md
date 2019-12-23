@@ -6,7 +6,7 @@ tags:
 - 数学/Math
 - 数论/Number Theory
 - 乘法逆元/Modular Inverse
-- 排列组合/Combination
+- 组合学/Combinatorics
 layout: post
 output: pdf_document
 ---
