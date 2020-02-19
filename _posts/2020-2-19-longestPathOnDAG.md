@@ -1,7 +1,7 @@
 ---
 published: true
 title: Finding the longest path on a DAG
-category: 题解/Tutorial
+category: 算法笔记/Alg Notes
 tags: 
 - 图论/Graph Theory
 - 动态规划/DP
