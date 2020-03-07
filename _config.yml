@@ -390,8 +390,8 @@ baidu_analytics: 54a8a997a9b6154da0dbae84d4cfb66a
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: thallium
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
