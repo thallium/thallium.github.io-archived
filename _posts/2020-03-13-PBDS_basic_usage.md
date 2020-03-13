@@ -49,23 +49,23 @@ struct custom_hash {
 ```
 # Balanced BST
 
-# Usage
+## Declaration
 
-## Header
+### Header
 ```cpp
 #include <ext/pb_ds/tree_policy.hpp>
 #include <ext/pb_ds/assoc_container.hpp>
 using namespace __gnu_pbds;
 ```
-## Make a map
+### Make a map
 ```cpp
 tree<int, int, less<int>, rb_tree_tag, tree_order_statistics_node_update> t;
 ```
-## Make a set
+### Make a set
 ```cpp
 tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> t;
 ```
-## Make a multi-set
+### Make a multi-set
 
 ```cpp
 tree<pair<int,int>, null_type, less<pair<int,int>>, rb_tree_tag, tree_order_statistics_node_update> t;
@@ -117,7 +117,7 @@ All the five tags:
 - `thin_heap_tag`
 - `rc_binomal_heap_tag`
 
-# What's different from `std::priority_queue`
+## What's different from `std::priority_queue`
 
 ```cpp
 point_iterator push(const_reference r_val);//return a iterator after push
@@ -134,3 +134,5 @@ end();//begin and end iterator
 [Blowing up unordered_map, and how to stop getting hacked on it](https://codeforces.com/blog/entry/62393)
 
 [pb_ds库的一些常用方法](https://blog.csdn.net/riba2534/article/details/80454602?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
+
+[用 pbds 过 luogu P3369【模板】普通平衡树](https://zhuanlan.zhihu.com/p/90104614)
