@@ -13,7 +13,7 @@ I saw both who uses `std::array` and `std::tuple` as elements of `std::vector` s
 The test is to sort 1e7 randomly generated data. It is just for a simple comparison and may not be rigorous.
 
 Compile command:
-> `g++ -Wall -Wextra -O2 -std=c++1z -static  test.cpp -o test `
+`g++ -Wall -Wextra -O2 -std=c++1z -static  test.cpp -o test `
 
 
 # array vs pair
