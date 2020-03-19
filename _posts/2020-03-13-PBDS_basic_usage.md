@@ -112,10 +112,10 @@ __gnu_pbds::priority_queue<int>;
 
 All the five tags:
 - `binary_heap_tag`
-- `binomal_heap_tag`
+- `binomial_heap_tag`
 - **`pairing_heap_tag`**
 - `thin_heap_tag`
-- `rc_binomal_heap_tag`
+- `rc_binomial_heap_tag`
 
 ## What's different from `std::priority_queue`
 
