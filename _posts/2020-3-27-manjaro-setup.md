@@ -51,6 +51,10 @@ Then update xmodmap:
 xmodmap ~/.Xmodmap
 ```
 
+已知bug：
+
+xmodmap有时候会失效，重新运行指令即可。
+
 ## 软件
 
 ### vim配置
@@ -60,6 +64,28 @@ xmodmap ~/.Xmodmap
 ### fcitx码表
 
 待更新
+
+### Autojump
+
+快速跳转文件夹，再也不用长长的cd了～
+
+#### 安装
+
+```shell
+yay autojump
+```
+
+#### Source the correct autojump file
+
+```shell
+echo "/usr/share/autojump/autojump.bash" >> ~/.bashrc
+chmod 755 /usr/share/autojump/autojump.bash
+source ~/.bashrc
+```
+
+#### 注意事项
+
+快速跳转的文件夹需要正常访问一次。
 
 ## 问题解决
 
