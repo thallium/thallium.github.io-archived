@@ -55,6 +55,14 @@ xmodmap ~/.Xmodmap
 
 xmodmap有时候会失效，重新运行指令即可。
 
+### 主题
+
+[arc](https://github.com/horst3180/arc-theme)
+
+```shell
+sudo pacman -S arc-gtk-theme
+```
+
 ## 软件
 
 ### vim配置
