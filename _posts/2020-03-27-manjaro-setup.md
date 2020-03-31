@@ -85,11 +85,11 @@ yay autojump
 
 #### Source the correct autojump file
 
-```shell
+{% highlight console %}
 echo "/usr/share/autojump/autojump.bash" >> ~/.bashrc
 chmod 755 /usr/share/autojump/autojump.bash
 source ~/.bashrc
-```
+{% endhighlight %}
 
 #### 注意事项
 
