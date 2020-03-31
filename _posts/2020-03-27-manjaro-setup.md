@@ -47,9 +47,9 @@ keycode  66 = Mode_switch
 
 Then update xmodmap:
 
-```shell
+{% highlight console %}
 xmodmap ~/.Xmodmap
-```
+{% endhighlight %}
 
 已知bug：
 
