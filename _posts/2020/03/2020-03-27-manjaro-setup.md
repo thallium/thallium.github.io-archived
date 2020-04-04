@@ -55,8 +55,8 @@ xmodmap ~/.Xmodmap
 解决挂起后失效的问题：
 
 {% highlight console %}
-sudo touch /usr/lib/systemd/system-sleep/xkeyboard
-sudo chmod 755 /usr/lib/systemd/system-sleep/xkeyboard
+?sudo touch /usr/lib/systemd/system-sleep/xkeyboard
+?sudo chmod 755 /usr/lib/systemd/system-sleep/xkeyboard
 {% endhighlight %}
 
 编辑`xkeyboard`
