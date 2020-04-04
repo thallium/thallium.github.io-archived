@@ -16,9 +16,8 @@ layout: post
 
 解决方法：
 
-```shell
-/etc/X11/xorg.conf.d/30-touchpad.conf
----
+编辑 `/etc/X11/xorg.conf.d/30-touchpad.conf`
+{% highlight shell %}
 Section "InputClass"
     Identifier "touchpad"
     MatchIsTouchpad "on"
@@ -28,14 +27,13 @@ Section "InputClass"
     Option "ButtonMapping" "1 3 2"
     Option "TappingButtonMap" "lmr"
 EndSection
-
-```
+{% endhighlight %}
 
 ### 映射caps+hjkl为方向键
 
 编辑`~/.Xmodmap`
 
-```shell
+{% highlight shell %}
 clear lock
 keycode  43 = h H Left H
 keycode  44 = j J Down J
@@ -44,24 +42,24 @@ keycode  46 = l L Right L
 keycode  66 = Mode_switch Caps_Lock
 keycode  31 = i I KP_Home I
 keycode  32 = o O KP_End O
-```
+{% endhighlight %}
 
 Then update xmodmap:
 
-{% highlight console %}
+```bash
 xmodmap ~/.Xmodmap
-{% endhighlight %}
+```
 
 解决挂起后失效的问题：
 
-{% highlight console %}
-?sudo touch /usr/lib/systemd/system-sleep/xkeyboard
-?sudo chmod 755 /usr/lib/systemd/system-sleep/xkeyboard
-{% endhighlight %}
+```bash
+sudo touch /usr/lib/systemd/system-sleep/xkeyboard
+sudo chmod 755 /usr/lib/systemd/system-sleep/xkeyboard
+```
 
 编辑`xkeyboard`
 
-{% highlight shell %}
+```shell
 #!/bin/bash
 
 case $1 in
@@ -74,13 +72,13 @@ case $1 in
         xmodmap /home/thallium/.Xmodmap
     ;;
 esac
-{% endhighlight %}
+```
 
 ### 主题
 
 [arc](https://github.com/horst3180/arc-theme)
 
-```shell
+```bash
 sudo pacman -S arc-gtk-theme
 ```
 
@@ -106,11 +104,11 @@ yay autojump
 
 #### Source the correct autojump file
 
-{% highlight console %}
+```bash
 echo "/usr/share/autojump/autojump.bash" >> ~/.bashrc
 chmod 755 /usr/share/autojump/autojump.bash
 source ~/.bashrc
-{% endhighlight %}
+```
 
 #### 注意事项
 
