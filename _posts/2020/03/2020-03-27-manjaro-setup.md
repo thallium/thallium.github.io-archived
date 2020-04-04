@@ -17,7 +17,8 @@ layout: post
 解决方法：
 
 编辑 `/etc/X11/xorg.conf.d/30-touchpad.conf`
-{% highlight shell %}
+
+```shell
 Section "InputClass"
     Identifier "touchpad"
     MatchIsTouchpad "on"
@@ -27,13 +28,13 @@ Section "InputClass"
     Option "ButtonMapping" "1 3 2"
     Option "TappingButtonMap" "lmr"
 EndSection
-{% endhighlight %}
+```
 
 ### 映射caps+hjkl为方向键
 
 编辑`~/.Xmodmap`
 
-{% highlight shell %}
+```shell
 clear lock
 keycode  43 = h H Left H
 keycode  44 = j J Down J
@@ -42,13 +43,13 @@ keycode  46 = l L Right L
 keycode  66 = Mode_switch Caps_Lock
 keycode  31 = i I KP_Home I
 keycode  32 = o O KP_End O
-{% endhighlight %}
+```
 
 Then update xmodmap:
 
-```bash
+{% highlight shell %}
 xmodmap ~/.Xmodmap
-```
+{% endhighlight %}
 
 解决挂起后失效的问题：
 
@@ -78,9 +79,9 @@ esac
 
 [arc](https://github.com/horst3180/arc-theme)
 
-```bash
+{% highlight shell %}
 sudo pacman -S arc-gtk-theme
-```
+{% endhighlight %}
 
 ## 软件
 
@@ -98,17 +99,17 @@ sudo pacman -S arc-gtk-theme
 
 #### 安装
 
-```shell
+{% highlight shell %}
 yay autojump
-```
+{% endhighlight %}
 
 #### Source the correct autojump file
 
-```bash
+{% highlight shell %}
 echo "/usr/share/autojump/autojump.bash" >> ~/.bashrc
 chmod 755 /usr/share/autojump/autojump.bash
 source ~/.bashrc
-```
+{% endhighlight %}
 
 #### 注意事项
 
