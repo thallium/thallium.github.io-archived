@@ -115,6 +115,14 @@ source ~/.bashrc
 
 快速跳转的文件夹需要正常访问一次。
 
+### Deepin screenshot
+
+{% highlight shell %}
+sudo pacman -S deepin-screenshot
+{% endhighlight %}
+
+如果不能正常复制到剪贴板，安装`xfce4-clipman`
+
 ## 问题解决
 
 ### 修改`/etc/profile`导致循环登录
