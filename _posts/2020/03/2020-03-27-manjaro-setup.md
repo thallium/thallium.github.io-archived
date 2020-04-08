@@ -115,7 +115,9 @@ source ~/.bashrc
 
 快速跳转的文件夹需要正常访问一次。
 
-### Deepin screenshot
+### 截图: Deepin screenshot
+
+一开始用的是火焰截图，但是不能自动识别窗口，后来偶然发现deepin screenshot感觉挺不错的。
 
 {% highlight shell %}
 sudo pacman -S deepin-screenshot
