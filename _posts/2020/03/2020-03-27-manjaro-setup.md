@@ -125,6 +125,18 @@ sudo pacman -S deepin-screenshot
 
 如果不能正常复制到剪贴板，安装`xfce4-clipman`
 
+### 词典
+
+[Wudao dict](https://github.com/ChestnutHeng/Wudao-dict)
+
+安装：
+
+{% highlight shell %}
+git clone https://github.com/chestnutheng/wudao-dict
+cd ./wudao-dict/wudao-dict
+sudo bash setup.sh
+{% endhighlight %}
+
 ## 问题解决
 
 ### 修改`/etc/profile`导致循环登录
@@ -136,3 +148,16 @@ sudo pacman -S deepin-screenshot
 ### Gnome-shell内存泄漏问题
 
 gnome传统艺能，`alt+F2`再输入`r`可以重新启动shell。
+
+### 让gvim默认在新标签中启动
+
+编辑`/usr/share/applications/gvim.desktop`
+
+把
+{% highlight shell %}
+Exec=gvim -f %F
+{% endhighlight %}
+改成
+{% highlight shell %}
+Exec=gvim -p --remote-tab-silent %F
+{% endhighlight %}
