@@ -161,3 +161,17 @@ Exec=gvim -f %F
 {% highlight shell %}
 Exec=gvim -p --remote-tab-silent %F
 {% endhighlight %}
+
+### i3wm下运行QQ/TIM/Wechat
+
+2020-04-13
+
+[原作者](http://www.waimaosns.cc/arch-linux-i3wm-run-deepin-qq-tim/)
+
+{% highlight shell %}
+nohup /usr/lib/gsd-xsettings > /dev/null 2>&1 &
+cd /opt/deepinwine/apps/Deepin-TIM
+./run.sh
+{% endhighlight %}
+
+最后将第一步添加到i3启动项里。
