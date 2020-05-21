@@ -74,8 +74,8 @@ tree<pair<int,int>, null_type, less<pair<int,int>>, rb_tree_tag, tree_order_stat
 
 Your must use `tree_order_statistics_node_update` to get order statistic:
 ```cpp
-size_type order_of_key(key_const_reference);
-typename PB_DS_CLASS_C_DEC::iterator PB_DS_CLASS_C_DEC:: find_by_order(size_type order)
+size_type order_of_key(key_const_reference);// returns the number of elements that are smaller than key
+iterator find_by_order(size_type order)// order starts from 0
 ```
 ## Use lower_bound and upper_bound to find precursor and successor
 
