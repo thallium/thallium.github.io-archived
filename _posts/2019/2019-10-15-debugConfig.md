@@ -6,7 +6,9 @@ tags: VSCode
 layout: post
 output: pdf_document
 ---
+
 <!-- more -->
+
 task.json
 
 ```json
@@ -19,7 +21,9 @@ task.json
       "command": "g++",
       "args": [
         "-g",
-        "${file}"
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}.exe"
       ],
       "group": {
         "kind": "build",
@@ -34,22 +38,23 @@ launch.json
 
 ```json
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "C++ Launch",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceRoot}/${fileBasenameNoExtension}.exe",
-            "stopAtEntry": false,
-            "externalConsole": true,
-            "cwd":"${workspaceFolder}",
-            "preLaunchTask": "task",
-            "windows": {
-              "MIMode": "gdb",
-              "miDebuggerPath": "replace this with your gdb path"
-            }
-          }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C++ Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/${fileBasenameNoExtension}.exe",
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "task",
+      "windows": {
+        "MIMode": "gdb",
+        "miDebuggerPath": "replace this with your gdb path"
+      }
+    }
+  ]
 }
 ```
+
