@@ -70,6 +70,12 @@ tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> 
 ```cpp
 tree<pair<int,int>, null_type, less<pair<int,int>>, rb_tree_tag, tree_order_statistics_node_update> t;
 ```
+
+Alternatively, you can use `std::less_equal`, but `lower_bound` and `upper_bound` will swap their function.
+
+```cpp
+tree<int, null_type, less_equal<int>, rb_tree_tag, tree_order_statistics_node_update> t;
+```
 ## Beyond std::set : ranking
 
 Your must use `tree_order_statistics_node_update` to get order statistic:
