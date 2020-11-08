@@ -753,3 +753,4 @@ leancloud_visitors:
   enable: true
   app_id: e76CzXWyyuVorYEE0JKGJGce-gzGzoHsz
   app_key: 5Rtdd7RwVOuVaOHvxVeh9ATe
+theme: jekyll-theme-minimal
