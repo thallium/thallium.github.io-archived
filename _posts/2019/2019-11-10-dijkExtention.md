@@ -16,7 +16,7 @@ Just as a reminder with simple explanatin.
 
 我们开一个`vector<int> pre[N]`用来记录某个点的前一个点，在更新距离的时候，如果当前距离更短就舍弃掉之前的记录，将当前点作为被更新点的前一个点；如果当前距离和最短距离相等就在数组里加上这个点。
 
-Use `vector<int> pre[N]` to record the previous vertices of all the vertices in the shortest path(s). When updating the distance to vetex $$v$$, if the current distance is better, discard the previous record and let the current vetex be the previous vetex of $$v$$. If the distance is the same, just add the current vertex to `pre[v]`.
+Use `vector<int> pre[N]` to record the previous vertices of all the vertices in the shortest path(s). When updating the distance to vetex $v$, if the current distance is better, discard the previous record and let the current vetex be the previous vetex of $v$. If the distance is the same, just add the current vertex to `pre[v]`.
 
 ```cpp
 for(pii it:E[u]){

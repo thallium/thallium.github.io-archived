@@ -22,9 +22,9 @@ task.json
       "command": "g++",
       "args": [
         "-g",
-        "$${file}",
+        "${file}",
         "-o",
-        "$${fileDirname}/$${fileBasenameNoExtension}.exe"
+        "${fileDirname}/${fileBasenameNoExtension}.exe"
       ],
       "group": {
         "kind": "build",
@@ -45,10 +45,10 @@ launch.json
       "name": "C++ Launch",
       "type": "cppdbg",
       "request": "launch",
-      "program": "$${workspaceRoot}/$${fileBasenameNoExtension}.exe",
+      "program": "${workspaceRoot}/${fileBasenameNoExtension}.exe",
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "$${workspaceFolder}",
+      "cwd": "${workspaceFolder}",
       "preLaunchTask": "task",
       "windows": {
         "MIMode": "gdb",

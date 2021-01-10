@@ -64,7 +64,7 @@ sudo chmod 755 /usr/lib/systemd/system-sleep/xkeyboard
 ```shell
 #!/bin/bash
 
-case $$1 in
+case $1 in
     pre)
         exit 0
     ;;
