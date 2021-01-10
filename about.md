@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-A competitive programming ethusiast.
+A competitive programming enthusiast.
