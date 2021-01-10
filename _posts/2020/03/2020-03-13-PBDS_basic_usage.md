@@ -4,6 +4,7 @@ title: Basic Usage of PB_DS/ PB_DS的基础用法
 category: 算法笔记/Alg Notes
 tags: 
 layout: post
+math: true
 ---
 Basic usage of Policy-Based Data Structure (PB_DS)
 <!-- more -->

@@ -6,6 +6,7 @@ tags:
 - 数据结构/Data Structure
 - 单调栈/Monotone Stack
 layout: post
+math: true
 ---
 总结一下加深印象
 <!-- more -->

@@ -7,6 +7,7 @@ tags:
 - 动态规划/DP
 - DFS
 layout: post
+math: true
 ---
 ```cpp
 vector<int> G[N];

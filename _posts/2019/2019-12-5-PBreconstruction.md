@@ -4,6 +4,7 @@ title: Reconstruction of my 12.42 PB
 category: 魔方/Rubik's Cube
 tags: 
 layout: post
+math: true
 ---
 <!-- more -->
 [see the animation on alg.cubing.net](https://alg.cubing.net/?type=reconstruction&setup=L2_R2_U_L2_B2_F2_U_R2_D-_U-_F-_R_F2_D_B2_D2_B-_F-_L_B&alg=y-_%2F%2Finspection%0AF-_D-_F2_U_R_B-_%2F%2FFB%0Ar-_U-_r-_U2_r_U_M_r-_U-_r_M-_U-_R_U_R-_U-_R_U_R-_%2F%2FSB%0AU-_R_U_R-_U-_R-_F_R_F-_%2F%2FCMLL%0AM-_U_M2-_U-_M_U2_M-_U_M_U2_M-_U2_%2F%2FLSE)

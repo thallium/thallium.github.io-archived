@@ -5,6 +5,7 @@ category: Linux
 tags: 
 - Linux
 layout: post
+math: true
 ---
 随缘更新，想到啥就记啥
 <!-- more -->
@@ -63,7 +64,7 @@ sudo chmod 755 /usr/lib/systemd/system-sleep/xkeyboard
 ```shell
 #!/bin/bash
 
-case $1 in
+case $$1 in
     pre)
         exit 0
     ;;

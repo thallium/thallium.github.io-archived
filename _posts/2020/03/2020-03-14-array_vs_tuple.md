@@ -4,6 +4,7 @@ title: Comparison of std::array and std::tuple / std::array和std::tuple的比�
 category: 杂项/Miscellany 
 tags: 
 layout: post
+math: true
 ---
 I saw both who uses `std::array` and `std::tuple` as elements of `std::vector` so I want to see which one performs better and what's their pro and cons.
 

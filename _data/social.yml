@@ -1,6 +1,9 @@
 - title: Twitter
-  url: https://twitter.com/ngzhio
+  url: https://twitter.com/gengchen233
   icon: fab fa-twitter
 - title: GitHub
-  url: https://github.com/ngzhio/jekyll-theme-hamilton
+  url: https://github.com/thallium
   icon: fab fa-github
+- title: CodeForces
+  url: https://codeforces.com/profile/Thallium54
+  icon: fa fa-user
