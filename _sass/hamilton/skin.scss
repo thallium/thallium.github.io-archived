@@ -22,22 +22,22 @@ blockquote {
   border-left-color: $border-color-light;
 }
 
-pre,
-code {
-  background-color: $code-background-color;
-}
+// pre,
+// code {
+//   background-color: $code-background-color;
+// }
 
 pre {
   box-shadow: $pre-shadow;
 }
 
-.highlight {
-  background: $code-background-color;
-
-  .highlighter-rouge & {
-    background: $code-background-color;
-  }
-}
+// .highlight {
+//   background: $code-background-color;
+// 
+//   .highlighter-rouge & {
+//     background: $code-background-color;
+//   }
+// }
 
 table {
   color: $table-text-color;

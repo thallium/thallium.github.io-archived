@@ -1,7 +1,5 @@
 ---
 ---
 
-@import 
-  "hamilton/skins/{{ site.skin | default: 'daylight' }}",
-  "hamilton/skin"
-;
+@import "hamilton/skins/{{ site.skin | default: 'daylight' }}";
+@import "hamilton/skin";
