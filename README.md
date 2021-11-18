@@ -1,3 +1,7 @@
+## This is an archive
+
+This is the archive of my old blog using jekyll just in case I miss something.
+
 # NexT
 
 > 精于心，简于形
